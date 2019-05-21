@@ -1,0 +1,14 @@
+
+@font-face {
+	font-family: 'MutatorSans'; 
+	src: url('MutatorSans.ttf'); 
+	font-weight: normal; 
+	font-style: normal; 
+}
+
+#font-mutator {
+	font-family: 'MutatorSans';
+	--wdth: 10;
+	--wght: 100;
+	font-variation-settings: 'wdth' var(--wdth), 'wght' var(--wght);
+}

@@ -18,3 +18,15 @@ document.addEventListener('mousemove', e => {
     setStyles('--wght', maxWeight * (y/maxY));
 
 });
+
+document.addEventListener('touchmove', e => {
+
+    maxY = window.innerHeight;
+    maxX = window.innerWidth;
+    x = e.clientX;
+    y = e.clientY;
+
+    setStyles('--wdth', maxWidth * (x/maxX));
+    setStyles('--wght', maxWeight * (y/maxY));
+
+});

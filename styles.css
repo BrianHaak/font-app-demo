@@ -1,7 +1,7 @@
 
 @font-face {
 	font-family: 'MutatorSans'; 
-	src: url('MutatorSans.ttf'); 
+	src: url('MutatorSans.ttf') format('truetype');
 	font-weight: normal; 
 	font-style: normal; 
 }

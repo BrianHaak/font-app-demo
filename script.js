@@ -21,6 +21,7 @@ document.addEventListener('mousemove', e => {
 
 document.addEventListener('touchmove', e => {
 
+    e.preventDefault();
     maxY = window.innerHeight;
     maxX = window.innerWidth;
     x = e.clientX;
